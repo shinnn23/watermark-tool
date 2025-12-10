@@ -601,6 +601,16 @@ def main():
         4. 調整滿意後，點擊「開始批量處理」按鈕
         5. 處理完成後下載 ZIP 檔案
         """)
+
+        # Buy Me a Coffee 按鈕
+        st.markdown(
+            """
+            <a href="https://buymeacoffee.com/shin91723y" target="_blank">
+                <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" height="45">
+            </a>
+            """,
+            unsafe_allow_html=True,
+        )
     
     # 檔案上傳區
     st.subheader("📤 上傳圖片")
@@ -753,6 +763,20 @@ def main():
                 use_container_width=True,
                 type="primary"
             )
+
+    # Footer
+    st.markdown(
+        """
+        <div style="text-align:center; margin-top: 2rem;">
+            Made with ❤️ by Astrid | 關注我的
+            <a href="https://www.instagram.com/_astrid.slowly/" target="_blank">Instagram</a>
+            和
+            <a href="https://www.threads.com/@_astrid.slowly" target="_blank">Threads</a>
+            獲取更多實用工具
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 # 執行主程式
